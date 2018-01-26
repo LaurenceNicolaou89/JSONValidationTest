@@ -42,7 +42,7 @@ function validateData()
 console.log(JSON.stringify(validateData()));
 
 /**
- * REST call which calls the validateData
+ * Get request which calls the validateData
  * function and prints out the result
  */
 app.get('/datamodel/check', function(req,res) {
